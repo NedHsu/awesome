@@ -5,7 +5,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import url from 'node:url'
 
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
+const __dirname = './'
 
 const toAbsolute = (p) => path.resolve(__dirname, p)
 
